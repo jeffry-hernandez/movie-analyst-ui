@@ -1,7 +1,7 @@
 // Declare our dependencies
 var express = require('express');
 var request = require('superagent');
-var backendHost = process.env.BACK_HOST || 'localhost';
+var backendHost = process.env.BACK_HOST || 'API-Backend-MovieAnalyst-14eb599ecaede0d6.elb.us-west-1.amazonaws.com';
 // Create our express app
 var app = express();
 
